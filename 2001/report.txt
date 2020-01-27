@@ -1,0 +1,98 @@
+CEC CS 18 C62     20-01-2020
+Vivek K p
+
+--------------------------------
+#1: file creation,sorting and cutting and pasting using linux commands
+---------------------------------
+Command/Shell script/Program name
+
+ll > abc.tct
+cat > abc.txt
+
+sort -n abc.txt
+cut -b 2 abc.txt
+paste abc.txt cba.txt
+
+Input: (If relevant)
+
+abc.txt(
+
+house
+car
+apple
+data
+name
+people
+dream
+speed
+
+)
+
+cba.txt(
+
+run
+walk
+study
+god
+sleep
+alive
+awake
+)
+
+
+Output: or Input & Output (whichever is applicable)
+
+sorted abc.txt(
+
+apple
+car
+data
+dream
+house
+name
+people
+speed
+)
+
+cut 2 abc.txt(
+
+o
+a
+p
+a
+a
+e
+r
+p
+)
+
+paste abc.txt cba.txt(
+
+house	run
+car	walk
+apple	study
+data	god
+name	sleep
+people	alive
+dream	awake
+speed	
+
+
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
+

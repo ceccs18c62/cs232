@@ -1,0 +1,131 @@
+Script started on Monday 20 January 2020 05:16:39 PM IST
+]0;student@ceclab2-Veriton-Series: ~/ceccs18c62/cs232/2001[01;32mstudent@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c62/cs232/2001[00m$ quitexitquit[Kquitexit[1Pksdcutgrep "hai abc.txt[1@car"[C[C[C[C[C[C[C[C[1Phai[C[C[C[C[C[C[C[C[1@car"[C[C[C[C[C[C[C[C
+[01;31m[Kcar[m[K
+]0;student@ceclab2-Veriton-Series: ~/ceccs18c62/cs232/2001[01;32mstudent@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c62/cs232/2001[00m$ pasr[Kte abc.tyxt[K[K[Kxt cba.txt
+house	run
+car	walk
+apple	study
+data	god
+name	sleep
+people	alive
+dream	awake
+speed	
+]0;student@ceclab2-Veriton-Series: ~/ceccs18c62/cs232/2001[01;32mstudent@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c62/cs232/2001[00m$ hu[Kistory
+    1  sudo
+    2  who am i
+    3  who am i;
+    4  who
+    5  time
+    6  now
+    7  who
+    8  time
+    9  ip addr
+   10  ip -s link
+   11  host -t AAAA www.google.com
+   12  arp -n
+   13  traceroute www.google.com
+   14  present
+   15  mysql root -u -p
+   16  man ifconfig
+   17  man ping
+   18  man traceroot
+   19  man traceroute
+   20  man netstat
+   21  ls
+   22  ls -l
+   23  ls -lt
+   24  ls -ltr
+   25  ls ab*-d
+   26  ls Desktop -d
+   27  alias
+   28  alias || a
+   29  unalias || ~/.bash_aliases
+   30  ||>abc.tct
+   31  ||>vivek.tct
+   32  cd
+   33  mkdir ceccs18c62
+   34  cd ceccs18c62
+   35  cd cs232
+   36  mkdir cs232
+   37  cd cs232
+   38  git init
+   39  git pull http://github.com/ceccs18c62/cs232
+   40  ||>abc.tct
+   41  git init
+   42  || > abc.tct
+   43  ll > abc.tct
+   44  cat abc.txt
+   45  alias'
+   46  alias ||='|s-a|'
+   47  unalias ||
+   48  ~/.bash_aliases
+   49  || > abc.tct
+   50  cat abc.txt
+   51  cat > abc.txt
+   52  ^ z
+   53  sdf
+   54  cd
+   55  alias
+   56  cut
+   57  clr
+   58  ~
+   59  cd ceccs18c62
+   60  cd cs232
+   61  alias
+   62  alias ll='ls -al'
+   63  unalias ll
+   64  ~ /.bash _aliases
+   65  ll > abc.tct
+   66  cat > abc.txt
+   67  cat abc.txt
+   68  sort -n fn
+   69  sort -n abc.txt
+   70  sort -nk7
+   71  sort -nk7 abc.txt
+   72  sort -rnk7 abc.txt
+   73  sort -t'$\t' -k7 abc.txt
+   74  cut -f3 abc.txt
+   75  cut -f-3
+   76  cut f1-3
+   77  mkdir 2001
+   78  cd 2001
+   79  script work.txt
+   80  ll > abc.txt
+   81  cat abc.txt
+   82  ll > ex.txt
+   83  cat ex.txt
+   84  ll > abc.tct
+   85  cat abc.txt
+   86  cat > abc.txt
+   87  sort -n abc.txt
+   88  sort -nk7 abc.txt
+   89  sort -rnk7 abc.txt
+   90  sort -t'$\t' -k7 anc.txt
+   91  cut -f3 abc.txt
+   92  cut -f-3
+   93  cut -abc-3
+   94  ll > cba.tct
+   95  cat > cba.txt
+   96  join r.abc.txt r.cba.txt
+   97  join abc.txt cba.txt
+   98  sort -n abc.txt
+   99  sort -n cba.txt
+  100  join abc.txt cba.txt
+  101  cut -b 2 abc.txt
+  102  grep -c
+  103  grep "car" abc.txt
+  104  grep "hai abc.txt
+  105  cut
+  106  ksd
+  107  exit
+  108  quit
+  109  grep "car" abc.txt
+  110  paste abc.txt cba.txt
+  111  history
+]0;student@ceclab2-Veriton-Series: ~/ceccs18c62/cs232/2001[01;32mstudent@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c62/cs232/2001[00m$ historypaste abc.txt cba.txt[3Pgrep "car" abc.txtquit[Kgrep "car" abc.txt
+[01;31m[Kcar[m[K
+]0;student@ceclab2-Veriton-Series: ~/ceccs18c62/cs232/2001[01;32mstudent@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c62/cs232/2001[00m$ grep '[K"hai" abc.txt
+]0;student@ceclab2-Veriton-Series: ~/ceccs18c62/cs232/2001[01;32mstudent@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c62/cs232/2001[00m$ exit
+exit
+
+Script done on Monday 20 January 2020 05:32:11 PM IST

@@ -1,0 +1,8 @@
+house
+car
+apple
+data
+name
+people
+dream
+speed

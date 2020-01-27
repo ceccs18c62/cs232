@@ -1,0 +1,7 @@
+run
+walk
+study
+god
+sleep
+alive
+awake

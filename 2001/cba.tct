@@ -1,0 +1,8 @@
+total 20
+drwxrwxr-x 2 student student 4096 Jan 20 16:44 ./
+drwxrwxr-x 3 student student 4096 Jan 20 16:30 ../
+-rw-rw-r-- 1 student student  330 Jan 20 16:38 abc.tct
+-rw-rw-r-- 1 student student   45 Jan 20 16:39 abc.txt
+-rw-rw-r-- 1 student student    0 Jan 20 16:44 cba.tct
+-rw-rw-r-- 1 student student  275 Jan 20 16:37 ex.txt
+-rw-rw-r-- 1 student student    0 Jan 20 16:35 work.txt
