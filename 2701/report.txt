@@ -1,0 +1,64 @@
+CEC CS 18 C62     27-01-2020
+Vivek K p
+
+
+#1: task-2
+Download KTU S1 results of your batch.
+Convert to .txt file: may be pdftotext -layout useful
+Separate results of S4C only. grep command may be useful. Don't edit the files directly.
+Compute sgpa for students who passed all subjects, for the rest count number failed subjects as n and display it as -n.
+Show result with name and register number.
+Similarly do for S2.
+Compute cgpa.
+Sort the result.
+
+Command/Shell script/Program name
+
+1.pdftotext -layout result_CHN.pdf result.txt
+
+2.grep "CHN18CS" result.txt>result_cs.txt
+
+3. grep 'CS002\|CS003\|CS005\|CS006\|CS007\|CS008\|CS012\|CS015\|CS018\|CS023\|CS024\|CS025\|CS028\|CS029\|CS035\|CS037\|CS039\|CS043\|CS046\|CS047\|CS048\|CS049\|CS051\|CS052\|CS053\|CS055\|CS056\|CS057\|CS060\|CS061\|CS063\|CS064\|CS068\|CS069\|CS071\|CS073\|CS076\|CS079\|CS080\|CS082\|CS083\|CS084\|CS090\|CS092\|CS093\|CS095\|CS096\|CS097\|CS100\|CS101\|CS103\|CS104\|CS108\|CS109\|CS110\|CS111\|CS113\|CS114\|CS115\|CS118\|CS120\|CS121\|CS122' result_cs.txt>result_c.txt
+
+4.grep "F" result_c.txt>result_fail.txt
+
+5. tr -cd 'F' < result_fail.txt | wc -c > $ n
+
+
+Input: (If relevant)
+
+s1 result_CHN.pdf
+
+Output: or Input & Output (whichever is applicable)
+
+convertion to .txt file
+result.txt
+
+cs student result
+result_cs.txt
+
+c batch result
+result_c.txt
+
+failed student
+result_fail.txt
+
+result
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
+
