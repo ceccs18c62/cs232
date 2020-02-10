@@ -1,0 +1,42 @@
+CEC CS 18 C62     10-02-2020
+Vivek K p
+--------------------------------
+#1: Aim/task
+
+create own web page
+
+---------------------------------
+
+Command/Shell script/Program name
+
+nano index.html
+
+Input: (If relevant)
+---------------
+
+Output: or Input & Output (whichever is applicable)
+
+
+files can be accessed through the table 
+
+
+ 
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
+
