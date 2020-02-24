@@ -1,0 +1,75 @@
+CEC CS 18 c62  24-02-2020
+Vivek k p
+
+--------------------------------
+#1: Create own web page (t9)
+
+
+Command/Shell script/Program name
+
+nano index.html
+
+
+
+Input: (If relevant)
+---------------
+
+--------------------------------
+
+Output: or Input & Output (whichever is applicable)
+
+# The page can be viewed at
+	http://192.168.0.30/cs17d/cs18c62
+
+
+--------------------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+#2:calculation of sgpa task(2)
+
+--------------------------------
+
+Command/Shell script/Program name
+
+./script.sh
+
+--------------------------------
+
+Input: (If relevant)
+
+s1 & s2 result_CHN.pdf
+student.txt #details of students
+
+--------------------------------
+
+Output: or Input & Output (whichever is applicable)
+
+files with cgpa/count of subjects failed in
+/sx/cgpa.txt
+
+
+
+--------------------------------
+#3:
+
+#4:
+
+#5:
+
+
+
+
+
+
+
+	
+
+
