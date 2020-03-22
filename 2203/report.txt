@@ -1,0 +1,66 @@
+CEC CS 18 C62   22-03-2020
+Vivek K P
+
+--------------------------------
+#1: Task-8.3
+    LAMP stack
+
+---------------------------------
+
+Command/Shell script/Program name
+
+sudo apt-get install apache2                            #installing apache2
+
+sudo ln -s / mnt/c/fooslab/server /var/www/devroot      #To create a symbolic link to the selected folder(server here). 
+
+nano index.php                                          #create a index.php file inside the server folder
+nano info.php                                           #created a info.php file inside the server folder
+
+$ sudo nano /etc/apache2/apache2.conf                   #Find the line with “<Directory /var/www/>” and replace where it says “AllowOverride” with “AllowOverride all”
+
+sudo nano /let/apaache2/sites-enabled/000-default.conf  #Change DocumentRoot  to /var/www/devroot  And ServerName to localhost 
+
+sudo service apache2 start                              #Start Apache2 
+
+sudo apt install mysql-server                           #Installing MySQL
+
+sudo service mysql start                                #start the database server
+
+sudo apt install php7.2-cli                             #installing php
+
+
+---------------------------------
+
+Input: (If relevant)
+
+info.php   #php version info
+
+index.php  #php file
+
+--------------------------------
+
+Output: or Input & Output (whichever is applicable)
+
+php version info can be view through http://localhost/info.php or 127.0.0.1/info.php
+screenshot - 1.png
+
+php page can be view through http://localhost/ or 127.0.0.1/
+screenshot - 2.png
+
+-------------------
+
+Remarks if any:
+
+These works are done in  Windows Subsystem for Linux (WSL)
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
