@@ -1,0 +1,21 @@
+Package: netcat
+Architecture: all
+Version: 1.10-41.1
+Priority: optional
+Section: universe/net
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ruben Molina <rmolina@udea.edu.co>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 13
+Depends: netcat-traditional (>= 1.10-39)
+Filename: pool/universe/n/netcat/netcat_1.10-41.1_all.deb
+Size: 3436
+MD5sum: 1532b987d25894907b75680121ab1d39
+SHA1: 66e915700ea986b66d7aa9ab48716932dbd282e8
+SHA256: a1939d34931cb0338f60198e3b946ef5b5c6ac511ec133f997e9d960242ae70c
+Description-en: TCP/IP swiss army knife -- transitional package
+ This is a "dummy" package that depends on lenny's default version of
+ netcat, to ease upgrades. It may be safely removed.
+Description-md5: 1353f8c1d079348417c2180319bdde09
+

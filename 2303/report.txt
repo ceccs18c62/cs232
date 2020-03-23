@@ -1,0 +1,77 @@
+CEC CS 18 C62   23-03-2020
+Vivek K P
+
+--------------------------------
+#1: Task-8.1
+
+   package managememnt
+
+---------------------------------
+
+Command/Shell script/Program name
+
+sudo dpkg -i google-chrome-stable_current_amd64.deb   #Install the Package google-chrome-stable_current_amd64.deb
+
+dpkg -l                                          #List all the installed Packages
+
+dpkg -c google-chrome-stable_current_amd64.deb   #View the Content of the Package( google-chrome-stable_current_amd64.deb)
+
+dpkg -s google-chrome-stable_current_amd64       #Check a Package is installed or not
+
+dpkg -L google-chrome-stable_current_amd64       #Check the location of Packages installed
+
+dpkg -r google-chrome-stable_current_amd64       #Remove the Package google-chrome-stable_current_amd64.deb
+
+apt-cache pkgnames                               #List All Available Packages
+
+apt-cache show netcat                            #To check Package Information
+
+apt-cache showpkg vsftpd                         #To check Dependencies for Specific Packages
+
+apt-cache stats                                  #To check statistics of Cache
+
+sudo apt install rpm                             #To install rpm
+
+sudo apt remove rpm                              #To remove rpm
+
+sudo apt-get update                              #To update  System Packages
+
+sudo apt-get remove vsftpd                       #Remove Packages Without Configuration
+
+sudo apt-get clean                               #Clean Up Disk Space
+
+
+---------------------------------
+
+Input: (If relevant)
+
+google-chrome-stable_current_amd64.deb file to do dpkg -i google-chrome-stable_current_amd64.deb
+
+--------------------------------
+
+Output: or Input & Output (whichever is applicable)
+
+List of installed packages             - packages.txt
+
+content of the package(google-chrome)  - content.txt
+
+list of available packages              - available.txt
+
+package information                    - package_info.txt
+
+statistics of Cache                    - statistics.txt
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
