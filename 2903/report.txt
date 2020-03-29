@@ -1,0 +1,48 @@
+CEC CS 18 C62   29-03-2020
+Vivek K P
+
+--------------------------------
+#1: Corona Spread In Kerala and India
+
+---------------------------------
+
+Command/Shell script/Program name
+
+gnuplot code.p  #to run the code                    
+
+---------------------------------
+
+Input: (If relevant)
+
+
+https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_India#Timeline_of_events  #data source
+https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_India
+       
+input_I.dat                                                                 #input data of india
+input_k.dat                                                                 #input data of kerala
+
+code.p                                                                      #code file
+
+--------------------------------
+
+Output: or Input & Output (whichever is applicable)
+
+
+Total_corona_spread_Kerala.png     #output .png file 
+Total_corona_spread_India.png
+
+-------------------
+Remarks if any:
+
+spread in kerala and India till 28/03/2020
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
