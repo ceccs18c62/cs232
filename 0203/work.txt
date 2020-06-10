@@ -1,0 +1,386 @@
+Script started on Monday 02 March 2020 09:07:48 AM IST
+]0;student@cc-Sy: ~/ceccs18c62/cs232/0203[01;32mstudent@cc-Sy[00m:[01;34m~/ceccs18c62/cs232/0203[00m$ sudo apt-get im[Knstall apache
+[sudo] password for student: 
+student is not in the sudoers file.  This incident will be reported.
+]0;student@cc-Sy: ~/ceccs18c62/cs232/0203[01;32mstudent@cc-Sy[00m:[01;34m~/ceccs18c62/cs232/0203[00m$ su admin1
+Password: 
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ sudo apt [K-get install apache
+[sudo] password for admin1: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+Package apache is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'apache' has no installation candidate
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ sudo apt-get install apache[C[1P[1P[1P[1P[1P
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ pd[Ks auz[Kx | grep 'apt'
+root      2596  0.2  2.7 292752 106912 ?       SNl  09:06   0:01 /usr/bin/python3 /usr/sbin/[01;31m[Kapt[m[Kd
+admin1    3662  0.0  0.0  14224   936 pts/19   S+   09:15   0:00 grep --color=auto [01;31m[Kapt[m[K
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ sudo kill -9 3662
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ sudo kill -9 3662ps aux | grep 'apt'apt-get install apache[1@s[1@u[1@d[1@p[1@ [1P[1P[1@o[1@ 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+Package apache is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'apache' has no installation candidate
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ sudo apt-get install apache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.1-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.1-0
+0 upgraded, 9 newly installed, 0 to remove and 5 not upgraded.
+Need to get 1,546 kB of archives.
+After this operation, 6,375 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libapr1 amd64 1.5.2-3 [86.0 kB]
+0% [1 libapr1 0 B/86.0 kB 0%]                             7% [Working]            Get:2 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1 amd64 1.5.4-1build1 [77.1 kB]
+7% [2 libaprutil1 2,896 B/77.1 kB 4%]                                     13% [Waiting for headers]                         Get:3 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1-dbd-sqlite3 amd64 1.5.4-1build1 [10.6 kB]
+13% [3 libaprutil1-dbd-sqlite3 2,631 B/10.6 kB 25%]                                                   16% [Working]             Get:4 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1-ldap amd64 1.5.4-1build1 [8,720 B]
+16% [4 libaprutil1-ldap 1,184 B/8,720 B 14%]                                            18% [Working]             Get:5 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 liblua5.1-0 amd64 5.1.5-8ubuntu1 [102 kB]
+18% [5 liblua5.1-0 0 B/102 kB 0%]                                 26% [Waiting for headers]                         Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-bin amd64 2.4.18-2ubuntu3.14 [930 kB]
+26% [6 apache2-bin 2,896 B/930 kB 0%]34% [6 apache2-bin 155 kB/930 kB 17%]42% [6 apache2-bin 317 kB/930 kB 34%]52% [6 apache2-bin 504 kB/930 kB 54%]59% [6 apache2-bin 648 kB/930 kB 70%]66% [6 apache2-bin 777 kB/930 kB 84%]                                     76% [Waiting for headers]                         Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-utils amd64 2.4.18-2ubuntu3.14 [82.1 kB]
+76% [7 apache2-utils 2,896 B/82.1 kB 4%]                                        83% [Waiting for headers]                         Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-data all 2.4.18-2ubuntu3.14 [162 kB]
+83% [8 apache2-data 4,344 B/162 kB 3%]                                      93% [Waiting for headers]                         Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2 amd64 2.4.18-2ubuntu3.14 [86.5 kB]
+94% [9 apache2 4,078 B/86.5 kB 5%]                                  100% [Working]              Fetched 1,546 kB in 5s (283 kB/s)
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 213760 files and directories currently installed.)
+Preparing to unpack .../libapr1_1.5.2-3_amd64.deb ...
+Unpacking libapr1:amd64 (1.5.2-3) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../libaprutil1_1.5.4-1build1_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.5.4-1build1) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../libaprutil1-dbd-sqlite3_1.5.4-1build1_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.5.4-1build1) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../libaprutil1-ldap_1.5.4-1build1_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.5.4-1build1) ...
+Selecting previously unselected package liblua5.1-0:amd64.
+Preparing to unpack .../liblua5.1-0_5.1.5-8ubuntu1_amd64.deb ...
+Unpacking liblua5.1-0:amd64 (5.1.5-8ubuntu1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../apache2-bin_2.4.18-2ubuntu3.14_amd64.deb ...
+Unpacking apache2-bin (2.4.18-2ubuntu3.14) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../apache2-utils_2.4.18-2ubuntu3.14_amd64.deb ...
+Unpacking apache2-utils (2.4.18-2ubuntu3.14) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../apache2-data_2.4.18-2ubuntu3.14_all.deb ...
+Unpacking apache2-data (2.4.18-2ubuntu3.14) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../apache2_2.4.18-2ubuntu3.14_amd64.deb ...
+Unpacking apache2 (2.4.18-2ubuntu3.14) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+Processing triggers for ureadahead (0.100.0-19.1) ...
+ureadahead will be reprofiled on next reboot
+Processing triggers for systemd (229-4ubuntu21.27) ...
+Setting up libapr1:amd64 (1.5.2-3) ...
+Setting up libaprutil1:amd64 (1.5.4-1build1) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.5.4-1build1) ...
+Setting up libaprutil1-ldap:amd64 (1.5.4-1build1) ...
+Setting up liblua5.1-0:amd64 (5.1.5-8ubuntu1) ...
+Setting up apache2-bin (2.4.18-2ubuntu3.14) ...
+Setting up apache2-utils (2.4.18-2ubuntu3.14) ...
+Setting up apache2-data (2.4.18-2ubuntu3.14) ...
+Setting up apache2 (2.4.18-2ubuntu3.14) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for ureadahead (0.100.0-19.1) ...
+Processing triggers for systemd (229-4ubuntu21.27) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ ifconfig
+enp2s0    Link encap:Ethernet  HWaddr 38:d5:47:b8:da:97  
+          inet addr:192.168.0.80  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::95ff:dd11:1a04:be5e/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:19572 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6113 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:14551365 (14.5 MB)  TX bytes:534191 (534.1 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4692 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4692 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:313432 (313.4 KB)  TX bytes:313432 (313.4 KB)
+
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ net[K[K[Knetstat -a \[K| more
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 cc-Sy:domain            *:*                     LISTEN     
+tcp        0      0 localhost:ipp           *:*                     LISTEN     
+tcp        0      0 localhost:mysql         *:*                     LISTEN     
+tcp        0      0 192.168.0.80:51388      192.168.0.2:3128        ESTABLISHED
+tcp        0      0 192.168.0.80:59774      192.168.0.1:netbios-ssn ESTABLISHED
+tcp        0      0 192.168.0.80:51392      192.168.0.2:3128        TIME_WAIT  
+tcp6       0      0 ip6-localhost:ipp       [::]:*                  LISTEN     
+tcp6       0      0 [::]:http               [::]:*                  LISTEN     
+udp        0      0 cc-Sy:domain            *:*                                
+udp        0      0 *:bootpc                *:*                                
+udp        0      0 *:35293                 *:*                                
+udp        0      0 *:ipp                   *:*                                
+udp        0      0 *:mdns                  *:*                                
+udp6       0      0 [::]:39446              [::]:*                             
+udp6       0      0 [::]:mdns               [::]:*                             
+raw6       0      0 [::]:ipv6-icmp          [::]:*                  7          
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     28886    @/tmp/dbus-v0giyTVfaq
+unix  2      [ ]         DGRAM                    26170    /run/user/1002/system
+d/notify
+[7m--More--[27munix  2      [ ACC ]     STREAM     LISTENING     26171    /run/user/1002/system
+[7m--More--[27md/private
+[7m--More--[27munix  2      [ ACC ]     SEQPACKET  LISTENING     15628    /run/udev/control
+[7m--More--[27m
+[1]+  Stopped                 netstat -a | more
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ nana[Ko index.html
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;9H(B[0;7m[ Error writing lock file ./.index.html.swp: Permission denied ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: index.html                                  [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[?25l[1;71H(B[0;7mModified[22;2H[ Warning: Modifying a file which is not locked, check directory permission? ][3d(B[m[?12l[?25h<!do  Doctype        html[36m<html>[39m(B[m<[22d[K[3;8H/html< [7G[36m</html>[39m(B[m[K[4d[36m</html>[39m(B[m[A[C[C[C[C[C[C7[4;22r8[4dM[1;24r[4;1H[36m<[39m(B[m[36mh[39m(B[m[36me[39m(B[m[36ma[39m(B[m[36md[39m(B[m[36m>[39m(B[m[36m<[39m(B[m[36m/[39m(B[m[36mh[39m(B[m[36me[39m(B[m[36ma[39m(B[m[36md[39m(B[m[36m>[39m(B[m7[5;22r8[5dM[1;24r[4;7H[K[5d[36m</head>[39m(B[m[A[C[C[C[C[C[C[5d[C[C[C[C[C[C[C[6d[C[C[C[C[C[A[A[C[?25l[22;31H(B[0;7m[ Unknown Command ][4;7H(B[m[?12l[?25h\ 7[5;21r8[5dM[1;24r[5;1H[36m<[39m(B[m[36mt[39m(B[m[36mi[39m(B[m[36mt[39m(B[m[36ml[39m(B[m[36me[39m(B[m[36m>[39m(B[mhttp> [36m<[39m(B[m[36m/[39m(B[m[36mt[39m(B[m[36mi[39m(B[m[36mt[39m(B[m[36ml[39m(B[m[36me[39m(B[m[36m>[39m(B[m[6;8H7[7;22r8[7dM[1;24r[7;1HM[36m<[39m(B[m[36mb[39m(B[m[36mo[39m(B[m   [K[36m<[39m(B[m[36mb[39m(B[m[36mo[39m(B[m[36md[39m(B[m[36my[39m(B[m[36m>[39m(B[m[36m<[39m(B[m[36m/[39m(B[m[36mb[39m(B[m[36mo[39m(B[m[36md[39m(B[m[36my[39m(B[m[36m>[39m(B[m[6;8H[7d7[8;22r8[8dM[1;24r[7;7H[K[8d[36m</body>[39m(B[m[A[C[C[C[C[C[C7[8;22r8[8dM[1;24r[8;1H[36m<[39m(B[m[36mh[39m(B[m[36m1[39m(B[m[36m>[39m(B[mhello[36m<[39m(B[m[36m/[39m(B[m [36m/[39m(B[m[36mh[39m(B[m[36m1[39m(B[m[36m>[39m(B[m[7;7H[A[C[5;15H[4;7H[A[2;22r[2;1HM[1;24r[4;1H[A[36m<[39m(B[m[36m![39m(B[m[36mD[39m(B[m[36mo[39m(B[m[36mc[39m(B[m[36mk[39m(B[m [36mT[39m(B[m[36mY[39m(B[m[36mP[39m(B[m[36mE[39m(B[m      [36mO[39m(B[m[36mC[39m(B[m[36mT[39m(B[m[36mY[39m(B[m[36mP[39m(B[m[36mE[39m(B[m[36m [39m(B[m[36mH[39m(B[m [36mH[39m(B[m[36mT[39m(B[m[36mM[39m(B[m[36mL[39m(B[m    [36mh[39m(B[m[36mt[39m(B[m[36mm[39m(B[m[36ml[39m(B[m[36m>[39m(B[m[4;7H[5d[6;16H[7;8H[8d[9;15H[10d[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: index.html                              [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;31H[?25l[22;16H[1K (B[0;7m[ Error writing index.html: Permission denied ](B[m[K[10d[?12l[?25h[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[10d[12d[9d[6d[3d[6d[9d7[9;21r8M[1;24r[10;1H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[2]+  Stopped                 nano index.html
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ nano index.html
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;9H(B[0;7m[ Error writing lock file ./.index.html.swp: Permission denied ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: index.html                                  [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[3]+  Stopped                 nano index.html
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ nano ec[Kx.html
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;10H(B[0;7m[ Error writing lock file ./.ex.html.swp: Permission denied ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3               File: ex.html                                    [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[?25l[1;71H(B[0;7mModified[22;2H[ Warning: Modifying a file which is not locked, check directory permission? ][3d(B[m[?12l[?25h<1 !DOCTYPE HTML    html[36m<!DOCTYPE html>[39m(B[m[4d<[22d[K[4d<html[36m<html>[39m(B[m</html[7G[36m</html>[39m(B[m[K[5d[36m</html>[39m(B[m[A[C[C[C[C[C[C7[5;22r8[5dM[1;24r[5;1H[36m<[39m(B[m[36mb[39m(B[m[36mo[39m(B[m[36md[39m(B[m[36my[39m(B[m[36m>[39m(B[m[36m<[39m(B[m[36m/[39m(B[m[36mb[39m(B[m[36mo[39m(B[m[36md[39m(B[m[36my[39m(B[m[36m>[39m(B[m7[6;22r8[6dM[1;24r[5;7H[K[6d[36m</body>[39m(B[m[A[C[C[C[C[C[C7[6;22r8[6dM[1;24r[6;1H[36m<[39m(B[m[36mh[39m(B[m[36m1[39m(B[m[36m>[39m(B[mhello0 [36m<[39m(B[m[36m/[39m(B[m[36mh[39m(B[m[36m1[39m(B[m[36m>[39m(B[m[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: ex.html                                 [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;28H[?25l[22;18H[1K (B[0;7m[ Error writing ex.html: Permission denied ](B[m[K[6;15H[?12l[?25h[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[6;15H7[7;21r8[7dM[1;24r[7;1H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: ex.html                                 [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;28H[?25l[22;18H[1K (B[0;7m[ Error writing ex.html: Permission denied ](B[m[K[7d[?12l[?25h[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[7d[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[4]+  Stopped                 nano ex.html
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ nano ex.html[K[K[K[K[K[K[K[K[K[K[K[Khostname -I
+192.168.0.80 
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ sudo get[Kdit/var/www/html/index. html
+[sudo] password for admin1: 
+sudo: gedit/var/www/html/index.html: command not found
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ sudo gedit/var/www/html/index.hhtml[A]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo gedit/var/www/html/index.hhtml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /var/www/html/index.html[A]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ [C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo gedit /var/www/html/index..html
+
+(gedit:5308): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5308): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ sudo apt-get install vsftpd
+[sudo] password for admin1: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 5 not upgraded.
+Need to get 115 kB of archives.
+After this operation, 336 kB of additional disk space will be used.
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 vsftpd amd64 3.0.3-3ubuntu2 [115 kB]
+3% [1 vsftpd 3,961 B/115 kB 3%]                               100% [Working]              Fetched 115 kB in 0s (8,757 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package vsftpd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 214444 files and directories currently installed.)
+Preparing to unpack .../vsftpd_3.0.3-3ubuntu2_amd64.deb ...
+Unpacking vsftpd (3.0.3-3ubuntu2) ...
+Processing triggers for ureadahead (0.100.0-19.1) ...
+Processing triggers for systemd (229-4ubuntu21.27) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up vsftpd (3.0.3-3ubuntu2) ...
+Processing triggers for ureadahead (0.100.0-19.1) ...
+Processing triggers for systemd (229-4ubuntu21.27) ...
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ sudo vim ?[K/etc/vsftpd.config
+sudo: vim: command not found
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ sudo vim /etc/vsftpd.config[K[K
+sudo: vim: command not found
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ sudo vim /etc/vsftpd.conf[1P[C[1P /etc/vsftpd.conf[1P /etc/vsftpd.confg /etc/vsftpd.confe /etc/vsftpd.confd /etc/vsftpd.confi /etc/vsftpd.conft /etc/vsftpd.conf
+
+(gedit:6780): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:6780): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:6780): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:6780): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:6780): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:6780): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:6780): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+^Z
+[5]+  Stopped                 sudo gedit /etc/vsftpd.conf
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ sudo gedit /etc/vsftpd.conf[Kftp localhi[Kost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:admin1): admin1
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxr-xr-x    2 1007     1007         4096 Jan 21 13:31 Desktop
+drwxr-xr-x    2 1007     1007         4096 Jan 21 13:31 Documents
+drwxr-xr-x    2 1007     1007         4096 Feb 28 12:53 Downloads
+drwxr-xr-x    2 1007     1007         4096 Jan 21 13:31 Music
+drwxr-xr-x    2 1007     1007         4096 Jan 21 13:31 Pictures
+drwxr-xr-x    2 1007     1007         4096 Jan 21 13:31 Public
+drwxr-xr-x    2 1007     1007         4096 Jan 21 13:31 Templates
+drwxr-xr-x    2 1007     1007         4096 Jan 21 13:31 Videos
+drwxrwxr-x    3 1007     1007         4096 Feb 28 10:52 ceccs18c21
+drwxrwxr-x    4 1007     1007         4096 Jan 31 10:06 ceccs18c29
+drwxrwxr-x    8 1007     1007         4096 Feb 17 12:39 cs232
+-rw-r--r--    1 1007     1007         8980 Jan 21 13:23 examples.desktop
+-rw-r--r--    1 1007     1007          396 Feb 28 12:38 report.txt
+226 Directory send OK.
+ftp> ifconfig
+?Invalid command
+ftp> quit
+221 Goodbye.
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ ifconfig
+enp2s0    Link encap:Ethernet  HWaddr 38:d5:47:b8:da:97  
+          inet addr:192.168.0.80  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::95ff:dd11:1a04:be5e/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:164962 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:16791 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:30035849 (30.0 MB)  TX bytes:2009612 (2.0 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:28162 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:28162 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1884043 (1.8 MB)  TX bytes:1884043 (1.8 MB)
+
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ cs18c62@192.168.0.30
+cs18c62@192.168.0.30: command not found
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ cs18c62@192.168.0.30fcs18c62@192.168.0.30tcs18c62@192.168.0.30pcs18c62@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+There are stopped jobs.
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ exitcs18c62@192.168.0.30fcs18c62@192.168.0.30tcs18c62@192.168.0.30pcs18c62@192.168.0.30 cs18c62@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ftp: cs18c62@192.168.0.30: Temporary failure in name resolution
+ftp> z[K^Z
+[6]+  Stopped                 ftp cs18c62@192.168.0.30
+]0;admin1@cc-Sy: /home/student/ceccs18c62/cs232/0203[01;32madmin1@cc-Sy[00m:[01;34m/home/student/ceccs18c62/cs232/0203[00m$ ftp cs18c62@192.168.0.30[1@s
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  

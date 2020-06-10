@@ -1,0 +1,61 @@
+CEC CS 18 C62  02-03-2020
+Vivek K P
+
+--------------------------------
+#1: (t7) Setting up http and ftp servers
+
+---------------------------------
+
+Command/Shell script/Program name
+
+#to setup http server
+
+sudo apt-get install apache
+
+ifconfig
+
+hostname -I - to get the ip
+
+sudo gedit /var/www/html/index.html
+
+#to setup ftp server
+
+sudo apt-get install vsftpd
+
+sudo gedit /etc/vsftpd.conf
+
+
+ftp lockhost
+
+---------------------------------
+
+Input: (If relevant)
+
+
+Output: or Input & Output (whichever is applicable)
+
+http://192.168.0.80/ -my server
+
+t7.png  -sreenshot
+
+-------------------
+Remarks if any:
+
+created a link to the index.html file that created in task 9
+
+because of network problem that link cannot be acessed at that moment
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
+
