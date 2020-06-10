@@ -1,0 +1,52 @@
+CEC CS 18 C62   24-04-2020
+VIVEK K P
+
+--------------------------------
+#1: Linux Installation (t6)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+# ubuntu installation using CD(Ubuntu 18.04.4 LTS)
+
+------------------------------------	
+Output: 
+	
+# Images 1-6 (.jpg) shows various steps of installation
+	
+	
+
+-------------------
+Remarks if any:
+	
+	
+
+-------------------------------------
+-------------------------------------
+
+
+#2: Aim/task: Menu Driven Calculator (s6)
+------------------------------------
+
+
+Command/Shell script/Program name:
+------------------------------------
+    
+ # cal.sh
+
+------------------------------------
+
+Output:
+
+# Screenshot of output is attached - out.png
+
+
+------------------------------------ 
+
+Remarks if any:
+	
+	
+
+-------------------------------------
+-------------------------------------       

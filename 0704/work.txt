@@ -1,0 +1,219 @@
+﻿Script started on 2020-04-07 13:09:10+0530
+]0;vivek@LAPTOP-MD28B2CN: /mnt/c/fosslab/0704[01;32mvivek@LAPTOP-MD28B2CN[00m:[01;34m/mnt/c/fosslab/0704[00m$ nano cal.c
+[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                            cal.c                                                       [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[3d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[3d(B[0;1m[33mcase[39m(B[m 1:printf((B[0;1m[33m"%d + %d = %d\n"[39m(B[m,a,b,a+b);[4d[35mbreak[39m(B[m;[5d(B[0;1m[33mcase[39m(B[m 2:printf((B[0;1m[33m"%d - %d = %d\n"[39m(B[m,a,b,a-b);[6d[35mbreak[39m(B[m;[7d(B[0;1m[33mcase[39m(B[m 3:printf((B[0;1m[33m"%d * %d = %d\n"[39m(B[m,a,b,a*b);[8d[35mbreak[39m(B[m;[9d(B[0;1m[33mcase[39m(B[m 4:(B[0;1m[33mif[39m(B[m(b==0){[10dprintf((B[0;1m[33m"%d / %d = Invalid\n"[39m(B[m,a,b);}[11d(B[0;1m[33melse[12d[39m(B[mprintf((B[0;1m[33m"%d / %d = %d\n"[39m(B[m,a,b,a+b);[13d[35mbreak[39m(B[m;[14d(B[0;1m[33mcase[39m(B[m 5:printf((B[0;1m[33m"%d\n"[39m(B[m,a%b);[15d[35mbreak[39m(B[m;[16ddefalut:printf((B[0;1m[33m"invalid operation\n"[39m(B[m);[17d[35mbreak[39m(B[m;[18d}[28d[K[18d}[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[2;27r[2;1H[13T[1;30r[3;1H(B[0;1m[36m#include[33m<stdio.h>[5d(B[0m[32mvoid[39m(B[m main(){[7d[32mint[39m(B[m a,b,n;[9dprintf((B[0;1m[33m"enter two numbers\n"[39m(B[m);[10dscanf((B[0;1m[33m"%d %d"[39m(B[m,&a,&b);[12dprintf((B[0;1m[33m"1-addition,2-subtraction,3-multiplication,4-divition,5-modules\n"[39m(B[m);[13dscanf((B[0;1m[33m"%d"[39m(B[m,&n);[15d(B[0;1m[33mswitch[39m(B[m(n){[C[?12l[?25h[?25l[A[?12l[?25h[?25l[As[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[As[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[C[?12l[?25h[?25l[A[?12l[?25h[?25l[A[C[?12l[?25h[?25l[A[?12l[?25h[?25l[A[C[?12l[?25h[?25l[1;119H[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 29 lines ](B[m[3;2H[?12l[?25h[?25l[30;1H[?12l[?25h[?1049l[23;0;0t[?1l>Use "fg" to return to nano.
+
+[1]+  Stopped                 nano cal.c
+]0;vivek@LAPTOP-MD28B2CN: /mnt/c/fosslab/0704[01;32mvivek@LAPTOP-MD28B2CN[00m:[01;34m/mnt/c/fosslab/0704[00m$ nano cal.cscript work.txt[8Pcd 0704[3@mkdir[C[C[C[C[Ccd /mnt/c/fosslab[2Pscript work.txtcat /etc/shells[K[9Plscpunano system.sh[9P$USERLOGNAME[3Puser[1Pexit./system.shnano system.sh[3P./sysCon.shnano sysCon.sh[3P./sysCon.shnano sysCon.shcalculator.c[5P./calculatornano calculator.c[5P./calculatorgcc calculator.c -o calculator[13Pnano calculator.cgcc calculator.c -o calculator[1P[1P[1P[1P[1P[1P[1P[C[1P[1@l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[Kl
+[01m[Kcal.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kcal.c:29:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+]0;vivek@LAPTOP-MD28B2CN: /mnt/c/fosslab/0704[01;32mvivek@LAPTOP-MD28B2CN[00m:[01;34m/mnt/c/fosslab/0704[00m$ gcc cal.c -o cal[6Pnano cal.c
+[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[28d(B[0;7mFile cal.c is being edited (by vivek with nano 2.9.3, PID 35); continue?                                                [29;1H Y(B[m Yes[30d(B[0;7m N(B[m No[30;17H(B[0;7m^C(B[m Cancel[28;73H[?12l[?25h[?25l[28;52H[1K (B[0;7m[ Reading File ](B[m[K[28;52H(B[0;7m[ Read 29 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                            cal.c                                                       [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[3d(B[0;1m[36m#include[33m<stdio.h>[5d(B[0m[32mvoid[39m(B[m main(){[7d[32mint[39m(B[m a,b,n;[9dprintf((B[0;1m[33m"enter two numbers\n"[39m(B[m);[10dscanf((B[0;1m[33m"%d %d"[39m(B[m,&a,&b);[12dprintf((B[0;1m[33m"1-addition,2-subtraction,3-multiplication,4-divition,5-modules\n"[39m(B[m);[13dscanf((B[0;1m[33m"%d"[39m(B[m,&n);[15d(B[0;1m[33mswitch[39m(B[m(n){[16d(B[0;1m[33mcase[39m(B[m 1:printf((B[0;1m[33m"%d + %d = %d\n"[39m(B[m,a,b,a+b);[17d[35mbreak[39m(B[m;[18d(B[0;1m[33mcase[39m(B[m 2:printf((B[0;1m[33m"%d - %d = %d\n"[39m(B[m,a,b,a-b);[19d[35mbreak[39m(B[m;[20d(B[0;1m[33mcase[39m(B[m 3:printf((B[0;1m[33m"%d * %d = %d\n"[39m(B[m,a,b,a*b);[21d[35mbreak[39m(B[m;[22d(B[0;1m[33mcase[39m(B[m 4:(B[0;1m[33mif[39m(B[m(b==0){[23dprintf((B[0;1m[33m"%d / %d = Invalid\n"[39m(B[m,a,b);}[24d(B[0;1m[33melse[25d[39m(B[mprintf((B[0;1m[33m"%d / %d = %d\n"[39m(B[m,a,b,a+b);[26d[35mbreak[39m(B[m;[27d(B[0;1m[33mcase[39m(B[m 5:printf((B[0;1m[33m"%d\n"[39m(B[m,a%b);[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l[22d[?12l[?25h[?25l[23d[?12l[?25h[?25l[24d[?12l[?25h[?25l[25d[?12l[?25h[?25l[26d[?12l[?25h[?25l[27d[?12l[?25h[?25l7[3;27r8[13S[1;30r[15;1H[35mbreak[39m(B[m;[16ddefalut:printf((B[0;1m[33m"invalid operation\n"[39m(B[m);[17d[35mbreak[39m(B[m;[18d}[15d[?12l[?25h[?25l[28d[K[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[19d}[?12l[?25h[?25l[1;119H[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 30 lines ](B[m[19d}[?12l[?25h[?25l[30;1H[?12l[?25h[?1049l[23;0;0t[?1l>Use "fg" to return to nano.
+
+[2]+  Stopped                 nano cal.c
+]0;vivek@LAPTOP-MD28B2CN: /mnt/c/fosslab/0704[01;32mvivek@LAPTOP-MD28B2CN[00m:[01;34m/mnt/c/fosslab/0704[00m$ nano cal.cgcc cal.c -o cal
+]0;vivek@LAPTOP-MD28B2CN: /mnt/c/fosslab/0704[01;32mvivek@LAPTOP-MD28B2CN[00m:[01;34m/mnt/c/fosslab/0704[00m$ ./cal
+enter two numbers
+5 7
+1-addition,2-subtraction,3-multiplication,4-divition,5-modules
+3
+5 * 7 = 35
+]0;vivek@LAPTOP-MD28B2CN: /mnt/c/fosslab/0704[01;32mvivek@LAPTOP-MD28B2CN[00m:[01;34m/mnt/c/fosslab/0704[00m$ nano config.sh
+[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                          config.sh                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[3d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[3d[36m#!/bin/sh[5d#currently logged user and names[6d[39m(B[mw[7dwhoami[9d[36m#your current shell[10d(B[0;1m[34mecho[39m(B[m (B[0;1m[31m$0[12d(B[0m[36m#home directory[13d[39m(B[m~[15d[36m#os type[16d[39m(B[muname -a[18d[36m#current path[19d(B[0;1m[34mecho[39m(B[m (B[0;1m[31m$PATH[21d(B[0m[36m#working directory[22d[39m(B[mpwd[24d[36m#currently logged in[25d[39m(B[mwho -q[28d[K[26d[?12l[?25h[?25l[27d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;119H[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 24 lines ](B[m[3d[?12l[?25h[?25l[30;1H[?12l[?25h[?1049l[23;0;0t[?1l>Use "fg" to return to nano.
+
+[3]+  Stopped                 nano config.sh
+]0;vivek@LAPTOP-MD28B2CN: /mnt/c/fosslab/0704[01;32mvivek@LAPTOP-MD28B2CN[00m:[01;34m/mnt/c/fosslab/0704[00m$ nano config.sh[1Pconfig.sh[1Pconfig.sh[1Pconfig.sh[1Pconfig.sh[1Pconfig.sh.config.sh/config.sh
+ 13:14:27 up 7 min,  0 users,  load average: 0.52, 0.58, 0.59
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+vivek
+./config.sh
+./config.sh: 11: ./config.sh: /home/vivek: Permission denied
+Linux LAPTOP-MD28B2CN 4.4.0-17763-Microsoft #864-Microsoft Thu Nov 07 15:22:00 PST 2019 x86_64 x86_64 x86_64 GNU/Linux
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_1804.2020.5.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Roaming/npm:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+/mnt/c/fosslab/0704
+
+# users=0
+]0;vivek@LAPTOP-MD28B2CN: /mnt/c/fosslab/0704[01;32mvivek@LAPTOP-MD28B2CN[00m:[01;34m/mnt/c/fosslab/0704[00m$ nano system.sh
+[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                          system.sh                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[3d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[3d[36m#!/bin/sh[5d#kernal version ,os and version release no[39m[42m [6d[49m(B[muname [32m-r[7d(B[0;1m[34mcat[39m(B[m /etc/os-release[8dlsb-release -a[10d[36m#all avilable shell[11d(B[0;1m[34mcat[39m(B[m /etc/shell[13d[36m#cpu info type and speed etc[14d(B[0;1m[34mcat[39m(B[m /proc/cpuinfo[15dlscpu[17d[36m#memory info[18d[39m(B[mfree -m[20d[36m#hard disk info[21d[39m(B[mdf[42m [22d[49m(B[mfree -m[24d[36m#file system[25d[39m(B[mmount [32m|[39m(B[m column -t[28d[K[26d[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l/[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lc[?12l[?25h[?25l/[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25l[1;119H[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 24 lines ](B[m[11;16H[?12l[?25h[?25l[30;1H[?12l[?25h[?1049l[23;0;0t[?1l>Use "fg" to return to nano.
+
+[4]+  Stopped                 nano system.sh
+]0;vivek@LAPTOP-MD28B2CN: /mnt/c/fosslab/0704[01;32mvivek@LAPTOP-MD28B2CN[00m:[01;34m/mnt/c/fosslab/0704[00m$ nano system.sh[C[1P system.sh[1P system.sh[1P system.sh[1P system.sh[C.system.sh/system.sh[1P./system.sh
+4.4.0-17763-Microsoft
+NAME="Ubuntu"
+VERSION="18.04.2 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.2 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+No LSB modules are available.Distributor ID: UbuntuDescription:    Ubuntu 18.04.2 LTSRelease:        18.04Codename:       bionic
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+/usr/bin/tmux
+/usr/bin/screen
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz
+stepping	: 9
+microcode	: 0xffffffff
+cpu MHz		: 2401.000
+cache size	: 256 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 6
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave osxsave avx f16c rdrand
+bogomips	: 4802.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz
+stepping	: 9
+microcode	: 0xffffffff
+cpu MHz		: 2401.000
+cache size	: 256 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 6
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave osxsave avx f16c rdrand
+bogomips	: 4802.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz
+stepping	: 9
+microcode	: 0xffffffff
+cpu MHz		: 2401.000
+cache size	: 256 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 6
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave osxsave avx f16c rdrand
+bogomips	: 4802.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz
+stepping	: 9
+microcode	: 0xffffffff
+cpu MHz		: 2401.000
+cache size	: 256 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 6
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave osxsave avx f16c rdrand
+bogomips	: 4802.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              4
+On-line CPU(s) list: 0-3
+Thread(s) per core:  2
+Core(s) per socket:  2
+Socket(s):           1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               142
+Model name:          Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz
+Stepping:            9
+CPU MHz:             2401.000
+CPU max MHz:         2401.0000
+BogoMIPS:            4802.00
+Virtualization:      VT-x
+Hypervisor vendor:   Windows Subsystem for Linux
+Virtualization type: container
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave osxsave avx f16c rdrand
+              total        used        free      shared  buff/cache   available
+Mem:           4011        2696        1090          17         223        1183
+Swap:         12288         480       11807
+Filesystem     1K-blocks     Used Available Use% Mounted on
+rootfs         210329596 95697496 114632100  46% /
+none           210329596 95697496 114632100  46% /dev
+none           210329596 95697496 114632100  46% /run
+none           210329596 95697496 114632100  46% /run/lock
+none           210329596 95697496 114632100  46% /run/shm
+none           210329596 95697496 114632100  46% /run/user
+C:             210329596 95697496 114632100  46% /mnt/c
+D:             382568444  1830696 380737748   1% /mnt/d
+E:             382569468 14498528 368070940   4% /mnt/e
+              total        used        free      shared  buff/cache   available
+Mem:           4011        2698        1088          17         223        1181
+Swap:         12288         480       11807
+rootfs       on  /                         type  lxfs         (rw,noatime)
+none         on  /dev                      type  tmpfs        (rw,noatime,mode=755)
+sysfs        on  /sys                      type  sysfs        (rw,nosuid,nodev,noexec,noatime)
+proc         on  /proc                     type  proc         (rw,nosuid,nodev,noexec,noatime)
+devpts       on  /dev/pts                  type  devpts       (rw,nosuid,noexec,noatime,gid=5,mode=620)
+none         on  /run                      type  tmpfs        (rw,nosuid,noexec,noatime,mode=755)
+none         on  /run/lock                 type  tmpfs        (rw,nosuid,nodev,noexec,noatime)
+none         on  /run/shm                  type  tmpfs        (rw,nosuid,nodev,noatime)
+none         on  /run/user                 type  tmpfs        (rw,nosuid,nodev,noexec,noatime,mode=755)
+binfmt_misc  on  /proc/sys/fs/binfmt_misc  type  binfmt_misc  (rw,noatime)
+C:           on  /mnt/c                    type  drvfs        (rw,noatime,uid=1000,gid=1000,case=off)
+D:           on  /mnt/d                    type  drvfs        (rw,noatime,uid=1000,gid=1000,case=off)
+E:           on  /mnt/e                    type  drvfs        (rw,noatime,uid=1000,gid=1000,case=off)
+]0;vivek@LAPTOP-MD28B2CN: /mnt/c/fosslab/0704[01;32mvivek@LAPTOP-MD28B2CN[00m:[01;34m/mnt/c/fosslab/0704[00m$ exit
+exit
+There are stopped jobs.
+]0;vivek@LAPTOP-MD28B2CN: /mnt/c/fosslab/0704[01;32mvivek@LAPTOP-MD28B2CN[00m:[01;34m/mnt/c/fosslab/0704[00m$ exit

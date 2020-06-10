@@ -1,0 +1,11 @@
+--2020-04-08 12:14:06--  https://www.pexels.com/photo/708777/download/?search_query=fruit
+Resolving www.pexels.com (www.pexels.com)... 104.17.209.102, 104.17.208.102, 2606:4700::6811:d166, ...
+Connecting to www.pexels.com (www.pexels.com)|104.17.209.102|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?cs=srgb&dl=grape-fruits-708777.jpg&fm=jpg [following]
+--2020-04-08 12:14:11--  https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?cs=srgb&dl=grape-fruits-708777.jpg&fm=jpg
+Resolving images.pexels.com (images.pexels.com)... 104.17.209.102, 104.17.208.102, 2606:4700::6811:d066, ...
+Connecting to images.pexels.com (images.pexels.com)|104.17.209.102|:443... connected.
+HTTP request sent, awaiting response... 503 Service Temporarily Unavailable
+2020-04-08 12:14:12 ERROR 503: Service Temporarily Unavailable.
+

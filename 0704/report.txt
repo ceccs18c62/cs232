@@ -1,0 +1,257 @@
+CEC CS 18 C62   07-04-2020
+Vivek K P
+
+public ip - 42.106.181.45
+--------------------------------
+#1: S-4
+---------------------------------
+
+Command/Shell script/Program name
+--------------------------------
+
+#!/bin/sh
+
+#currently logged user and names
+w
+whoami
+
+#your current shell
+echo $0
+
+#home directory
+~
+
+#os type
+uname -a
+
+#current path
+echo $PATH
+
+#working directory
+pwd
+
+#currently logged in
+who -q
+
+
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+config.sh                        #shell script 
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+
+
+13:37:32 up 30 min,  0 users,  load average: 0.52, 0.58, 0.59
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+
+vivek
+
+./config.sh
+
+./config.sh: 11: ./config.sh: /home/vivek: Permission denied
+
+Linux LAPTOP-MD28B2CN 4.4.0-17763-Microsoft #864-Microsoft Thu Nov 07 15:22:00 PST 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_1804.2020.5.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Roaming/npm:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+
+/mnt/c/fosslab/0704
+
+# users=0
+
+-------------------
+Remarks if any:
+
+-------------------------------------
+-------------------------------------
+
+
+
+
+
+--------------------------------
+#2 S-5
+---------------------------------
+
+
+Command/Shell script/Program name
+--------------------------------
+
+#!/bin/sh
+
+#kernal version ,os and version release no 
+uname -r
+cat /etc/os-release
+lsb_release -a
+
+#all avilable shell
+cat /etc/shells
+
+#cpu info type and speed etc
+cat /proc/cpuinfo
+lscpu
+
+#memory info
+free -m
+
+#hard disk info
+df 
+free -m
+
+#file system
+mount | column -t
+
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+system.sh   #shell script
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+
+
+4.4.0-17763-Microsoft
+
+NAME="Ubuntu"
+VERSION="18.04.2 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.2 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 18.04.2 LTS
+Release:        18.04
+Codename:       bionic
+
+
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+/usr/bin/tmux
+/usr/bin/screen
+
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              4
+On-line CPU(s) list: 0-3
+Thread(s) per core:  2
+Core(s) per socket:  2
+Socket(s):           1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               142
+Model name:          Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz
+Stepping:            9
+CPU MHz:             2401.000
+CPU max MHz:         2401.0000
+BogoMIPS:            4802.00
+Virtualization:      VT-x
+Hypervisor vendor:   Windows Subsystem for Linux
+Virtualization type: container
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave osxsave avx f16c rdrand
+
+
+             total        used        free      shared  buff/cache   available
+Mem:           4011        2632        1154          17         223        1247
+Swap:         12288         471       11816
+
+rootfs       on  /                         type  lxfs         (rw,noatime)
+none         on  /dev                      type  tmpfs        (rw,noatime,mode=755)
+sysfs        on  /sys                      type  sysfs        (rw,nosuid,nodev,noexec,noatime)
+proc         on  /proc                     type  proc         (rw,nosuid,nodev,noexec,noatime)
+devpts       on  /dev/pts                  type  devpts       (rw,nosuid,noexec,noatime,gid=5,mode=620)
+none         on  /run                      type  tmpfs        (rw,nosuid,noexec,noatime,mode=755)
+none         on  /run/lock                 type  tmpfs        (rw,nosuid,nodev,noexec,noatime)
+none         on  /run/shm                  type  tmpfs        (rw,nosuid,nodev,noatime)
+none         on  /run/user                 type  tmpfs        (rw,nosuid,nodev,noexec,noatime,mode=755)
+binfmt_misc  on  /proc/sys/fs/binfmt_misc  type  binfmt_misc  (rw,noatime)
+C:           on  /mnt/c                    type  drvfs        (rw,noatime,uid=1000,gid=1000,case=off)
+D:           on  /mnt/d                    type  drvfs        (rw,noatime,uid=1000,gid=1000,case=off)
+E:           on  /mnt/e                    type  drvfs        (rw,noatime,uid=1000,gid=1000,case=off)
+
+
+-------------------
+
+Remarks if any:
+-------------------
+
+
+output of the command cat /proc/cpuinfo is too large 
+-------------------------------------
+-------------------------------------
+
+
+
+
+
+--------------------------------
+#1: S-6
+---------------------------------
+
+Command/Shell script/Program name
+--------------------------------
+
+
+nano cal.c
+gcc cal.c -o cal           #to create compile and run the code
+./cal
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+cat.c          #program file
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+
+
+enter two numbers
+2 6
+1-addition,2-subtraction,3-multiplication,4-divition,5-modules
+3
+2 * 6 = 12
+
+-------------------
+
+Remarks if any:
+-------------------------------------
+-------------------------------------
+
+
+#4:
+
+#5:
+
+#6:
+
+#7:
+
+
+
+
+
+
+
