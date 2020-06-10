@@ -1,4 +1,0 @@
-total 0
-drwxrwxrwx 1 vivek vivek 4096 Apr  8 10:00 .
-drwxrwxrwx 1 vivek vivek 4096 Apr  8 09:55 ..
--rwxrwxrwx 1 vivek vivek    0 Apr  8 10:00 listing.txt
