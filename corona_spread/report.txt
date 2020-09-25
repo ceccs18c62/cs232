@@ -32,7 +32,7 @@ corona_spread_Kerala.png     #output .png file
 -------------------
 Remarks if any:
 
-spread in kerala till 27/03/2020
+coronaspread in kerala till 27/03/2020
 
 -------------------------------------
 -------------------------------------
